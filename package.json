@@ -1,0 +1,28 @@
+{
+  "name": "brazilian-class-validator",
+  "version": "0.1.0",
+  "description": "Additional decorators for class-validator using validators for Brazilian values",
+  "main": "src/brazilian-class-validator.ts",
+  "repository": "https://github.com/luisfelipesdn12/brazilian-class-validator.git",
+  "author": {
+    "name": "Luis Felipe Santos do Nascimento",
+    "url": "https://luisfelipesdn12.now.sh",
+    "email": "luisfelipesdn12@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc src/ --outDir dist/"
+  },
+  "keywords": [
+    "class-validator",
+    "brazilian-values",
+    "brazil",
+    "decorators",
+    "validation"
+  ],
+  "private": false,
+  "dependencies": {
+    "brazilian-values": "^0.10.1",
+    "class-validator": "^0.13.1"
+  }
+}

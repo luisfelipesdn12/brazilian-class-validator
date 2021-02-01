@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // Module configuration
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    // Type-check configuration
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+
+    // Decorators
+    "experimentalDecorators": true
+  }
+}
