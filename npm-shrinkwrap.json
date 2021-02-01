@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "class-validator": {
+            "version": "^0.13.1",
+            "from": "class-validator@^0.13.1",
+            "dependencies": {
+                "libphonenumber-js": {
+                    "version": "1.9.8",
+                    "from": "libphonenumber-js@1.9.8"
+                }
+            }
+        }
+    }
+}
