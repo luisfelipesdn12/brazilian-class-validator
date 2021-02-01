@@ -29,6 +29,5 @@ const bg = new BrazilianGuy();
 bg.cpf = "123";
 bg.birthday = "30/12/2004";
 
-const errors = validate(bg);
-console.log(errors);
+validate(bg).then(errors => console.log(errors));
 ```

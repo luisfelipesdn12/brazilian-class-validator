@@ -1,6 +1,6 @@
 {
   "name": "brazilian-class-validator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Additional decorators for class-validator using validators for Brazilian values",
   "main": "dist/brazilian-class-validator.js",
   "repository": "https://github.com/luisfelipesdn12/brazilian-class-validator.git",
@@ -33,6 +33,6 @@
     "typescript": "^4.1.3"
   },
   "resolutions": {
-    "class-validator/libphonenumber-js": "1.9.8"
+    "libphonenumber-js": "1.9.8"
   }
 }
