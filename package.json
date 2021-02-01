@@ -1,6 +1,6 @@
 {
   "name": "brazilian-class-validator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Additional decorators for class-validator using validators for Brazilian values",
   "main": "dist/brazilian-class-validator.js",
   "repository": "https://github.com/luisfelipesdn12/brazilian-class-validator.git",
