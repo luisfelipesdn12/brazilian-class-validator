@@ -1,18 +1,20 @@
 {
   "compilerOptions": {
-    // Module configuration
     "moduleResolution": "node",
     "esModuleInterop": true,
-
-    // Type-check configuration
+    "declaration": true,
+    "declarationDir": "types/",
+    "target": "ES6",
+    "lib": ["ES6"],
+    "rootDir": "src",
+    "strict": true,
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
     "alwaysStrict": true,
-    "noImplicitAny": true,
     "noImplicitThis": true,
     "noImplicitReturns": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
-
-    // Decorators
     "experimentalDecorators": true
   }
 }
