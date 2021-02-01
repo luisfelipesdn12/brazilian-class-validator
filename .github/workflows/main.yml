@@ -33,8 +33,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
-      - run: npm build --if-present
-      - run: npm test --if-present
+      - run: npm run-script build --if-present
+      - run: npm run-script test --if-present
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
