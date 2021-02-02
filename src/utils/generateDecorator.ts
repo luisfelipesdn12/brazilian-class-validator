@@ -20,7 +20,7 @@ const generateDecorator = (
               },
               validator: {
                   validate(value: any): boolean {
-                      return validationFunc(value);
+                      return validationFunc(String(value));
                   },
               },
           });
