@@ -5,10 +5,10 @@ Additional decorators for class-validator using validators for Brazilian values
 ## Install
 ```terminal
 # Using npm
-npm install brazilian-values --save
+npm install brazilian-class-validator --save
 
 # Using yarn
-yarn add brazilian-values
+yarn add brazilian-class-validator
 ```
 
 ## Use
